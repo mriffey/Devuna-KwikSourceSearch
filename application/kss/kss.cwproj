@@ -59,7 +59,6 @@
     <Library Include="Find.ico" />
     <Library Include="FindNext.ico" />
     <Library Include="harrow.cur" />
-    <Library Include="kss.EXE.manifest" />
     <Library Include="kss.ico" />
     <Library Include="kss.res" />
     <Library Include="link-broken.ico" />

@@ -12,17 +12,3 @@ KSS captures and filters the output of the Findstr command, opens the file assoc
 This version of KSS is slightly different from the last commercial release.
 
 Most notably the Results List 'Print' and the 'CheckForUpdate' features have been removed as they required other 3rd party tools, some of which are no longer available.
-
-## Help Contents ##
-
-- [Introduction](help//Introduction.md)
-- [Main Window](help//Main.md)
-- [Search For](help//SearchFor.md)
-- [Match Summary](help//MatchSummary.md)
-- [Find and Delete Options](help//FindAndDeleteOptions.md)
-- [Macro Player](help//MacroPlayer.md)
-- [Save Results](help//SaveResults.md)
-- [Send To](help//SelectSendToCommand.md)
-- [Options](help//UserOptions.md)
-- [Property Editor](help//PropertyEditor.md)
-- [Using Regular Expressions](help//UsingRegularExpressions.md)
