@@ -659,6 +659,7 @@ Number        USHORT(5)
               PSTRING('File %File could not be opened.| |Do you want to save the file to a different location?')
             END
 
+
 !db                Debuger
 
 pagesetupMargin   LIKE(Sci_Rectangle)

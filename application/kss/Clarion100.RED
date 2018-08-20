@@ -43,8 +43,8 @@
 *.trf = %ROOT%\template\win
 *.txs = %ROOT%\template\win
 *.stt = %ROOT%\template\win
-*.*   = .; %ROOT%\libsrc\win; %ROOT%\images; %ROOT%\template\win ; C:\Projects\Devuna-KwikSourceSearch\libsrc\win
-*.lib = %ROOT%\lib; C:\Projects\Devuna-KwikSourceSearch\lib
+*.*   = .; %ROOT%\libsrc\win; %ROOT%\images; %ROOT%\template\win ;c:\projects\kss\libsrc\win C:\Projects\Devuna-KwikSourceSearch\libsrc\win
+*.lib = %ROOT%\lib; c:\projects\kss\lib;C:\Projects\Devuna-KwikSourceSearch\lib
 *.obj = %ROOT%\lib
 *.res = %ROOT%\lib
 *.hlp = %BIN%;%ROOT%\Accessory\bin

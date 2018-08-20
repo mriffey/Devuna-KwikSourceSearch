@@ -34,7 +34,7 @@
     <check_index>False</check_index>
     <GenerateMap>True</GenerateMap>
     <line_numbers>False</line_numbers>
-    <DefineConstants>_ABCDllMode_=&gt;0%3b_ABCLinkMode_=&gt;1%3b_SCIDllMode_=&gt;0%3b_SCILinkMode_=&gt;1</DefineConstants>
+    <DefineConstants>xFilesLinkMode=&gt;1%3bxFilesDllMode=&gt;0%3bStringTheoryLinkMode=&gt;1%3bStringTheoryDllMode=&gt;0%3bMD5=&gt;0%3b_ABCDllMode_=&gt;0%3b_ABCLinkMode_=&gt;1%3b_SCIDllMode_=&gt;0%3b_SCILinkMode_=&gt;1%3b</DefineConstants>
     <OutputPath>bin\release\</OutputPath>
     <warnings>on</warnings>
   </PropertyGroup>
@@ -61,6 +61,7 @@
     <Library Include="harrow.cur" />
     <Library Include="kss.ico" />
     <Library Include="kss.res" />
+    <Library Include="kss.Version" />
     <Library Include="link-broken.ico" />
     <Library Include="NextBookmark.ico" />
     <Library Include="paste.ico" />
@@ -179,6 +180,11 @@
     <Compile Include="kss_BC0.CLW">
       <Generated>true</Generated>
     </Compile>
+    <None Include="zlibwapi.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
   </ItemGroup>
   <Import Project="$(ClarionBinPath)\SoftVelocity.Build.Clarion.targets" />
 </Project>
