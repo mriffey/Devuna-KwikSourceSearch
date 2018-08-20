@@ -13,9 +13,7 @@ This version of KSS is slightly different from the last commercial release.
 
 Most notably the Results List 'Print' and the 'CheckForUpdate' features have been removed as they required other 3rd party tools, some of which are no longer available.
 
-======================================
 **OPEN SOURCE RELEASE NOTES AND NEWS**
-======================================
 
 "KSSO" means "Kwik Source Search - Open Edition". 
 
