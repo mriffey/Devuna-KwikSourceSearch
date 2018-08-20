@@ -13,3 +13,14 @@ This version of KSS is slightly different from the last commercial release.
 
 Most notably the Results List 'Print' and the 'CheckForUpdate' features have been removed as they required other 3rd party tools, some of which are no longer available.
 
+**OPEN SOURCE RELEASE NOTES AND NEWS**
+
+"KSSO" means "Kwik Source Search - Open Edition". 
+
+KSSO does not allow registration. To register, purchase KSS via Devuna.com, if available. NOTE: I AM NOT DEVUNA. 
+
+**1.0.14 2018-08-19** - Added feature (per Mark Goldberg's request) which allows KSSO to use Clarion's appname.cwproj.filelist.xml as the "list of files to search". It will automatically parse the list and search only the files noted as <Opened_Files>. It will not search the files created (generally binary) and it automatically excludes most undesirable file types from the <Opened_Files> list, such as .lib, .ico, etc. 
+
+**1.0.14 2018-08-19** - Version numbering added, which is just a build date/time that's automatically generated. Might help you keep track of whether you're up to date or not. Please dont submit bug reports on old versions. Get current, then reproduce the problem. Thank you.
+
+**1.0.14 2018-08-19** - Installer provided, which includes minor mods to the original Devuna SetupBuilder-based installer. Nothing major, mostly changes to support the version numbering noted above. 
