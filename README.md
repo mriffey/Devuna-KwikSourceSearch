@@ -28,6 +28,8 @@ Capesoft StringTheory
 
 KSSO does not allow registration. To register, purchase KSS via Devuna.com, if available. NOTE: I AM NOT DEVUNA. 
 
+**1.0.28 2018-09-12** - Added option to process files with binary content (ie: remove FINDSTR's /P option) The option has been added to setup and to the search window. Also removed the automatic push of the FINDSTR to the clipboard as that could get annoying, particularly to folks who don't use a clipboard manager.  
+
 **1.0.16 2018-08-20** - Housekeeping UI and message cleanup, thanks MG. 
 
 **1.0.14 2018-08-19** - Added feature (per Mark Goldberg's request) which allows KSSO to use Clarion's appname.cwproj.filelist.xml as the "list of files to search". It will automatically parse the list and search only the files noted as <Opened_Files>. It will not search the files created (generally binary) and it automatically excludes undesirable file types from the <Opened_Files> list, such as .lib, .ico, etc. **IMPORTANT: The source uses Capesoft xFiles and StringTheory to implement this feature. **
