@@ -13,13 +13,19 @@ This version of KSS is slightly different from the last commercial release.
 
 Most notably the Results List 'Print' and the 'CheckForUpdate' features have been removed as they required other 3rd party tools, some of which are no longer available.
 
+**KSSOpen readme begins (content above came from Randy)**
+
+
 **DEPENDENCIES**
 
 Without the list of tools below, you will not be able to build this source. You can remove the references to xFiles and StringTheory. Anyone with a basic level of experience with Clarion will likely be able to do this. 
 
-Clarion 10
-Capesoft xFiles
-Capesoft StringTheory
+Required tools / code:
+
+- This repo
+- Clarion 10 
+- Capesoft xFiles
+- Capesoft StringTheory
 
 
 **OPEN SOURCE RELEASE NOTES AND NEWS**
