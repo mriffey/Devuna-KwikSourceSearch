@@ -28,7 +28,7 @@ Capesoft StringTheory
 
 KSSO does not allow registration. To register, purchase KSS via Devuna.com, if available. NOTE: I AM NOT DEVUNA. 
 
-**1.0.28 2018-09-12** - Added option to process files with binary content (ie: remove FINDSTR's /P option) The option has been added to setup and to the search window. Also removed the automatic push of the FINDSTR to the clipboard as that could get annoying, particularly to folks who don't use a clipboard manager.  
+**1.0.28 2018-09-12** - Added option to process files with binary content (ie: remove FINDSTR's /P option) The option has been added to setup and to the search window. Also removed the automatic push of the FINDSTR to the clipboard as that could get annoying, particularly to folks who don't use a clipboard manager. The blank space above the Scintilla window has also been fixed. 
 
 **1.0.16 2018-08-20** - Housekeeping UI and message cleanup, thanks MG. 
 
