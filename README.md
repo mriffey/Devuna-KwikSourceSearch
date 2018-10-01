@@ -34,6 +34,8 @@ Required tools / code:
 
 KSSO does not allow registration. To register, purchase KSS via Devuna.com, if available. NOTE: I AM NOT DEVUNA. 
 
+** 1.0.39 2018-10-01** - Adjusted size of Scintilla control. The lower arrow on the scroll bar was clipped and a bit hard to hit accurately with the mouse. 
+
 ** 1.0.29 (code change, no release)** - Removed registered user text from options window, which had been hard coded to say not registered.
 
 **1.0.28 2018-09-12** - Added option to process files with binary content (ie: remove FINDSTR's /P option) The option has been added to setup and to the search window. Also removed the automatic push of the FINDSTR to the clipboard as that could get annoying, particularly to folks who don't use a clipboard manager. The blank space above the Scintilla window has also been fixed. 
