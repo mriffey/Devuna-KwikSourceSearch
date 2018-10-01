@@ -1,8 +1,8 @@
 LANGUAGE 0x0409
 
 1 VERSIONINFO
- FILEVERSION 1,0,29
- PRODUCTVERSION 1,0,29
+ FILEVERSION 1,0,39
+ PRODUCTVERSION 1,0,39
  FILEFLAGSMASK 0x3FL
  FILEFLAGS 0
  FILEOS VOS__WINDOWS32
@@ -14,16 +14,16 @@ BEGIN
     BLOCK "040904E4"
       BEGIN
         VALUE "CompanyName", "Devuna\0"
-        VALUE "FileVersion", "1.0.29\0"
+        VALUE "FileVersion", "1.0.39\0"
         VALUE "LegalCopyright", "Copyright (c) 2017\0"
         VALUE "LegalTrademarks", "(none)\0"
         VALUE "OriginalFilename", "kss.EXE\0"
-        VALUE "ProductVersion", "1.0.29\0"
+        VALUE "ProductVersion", "1.0.39\0"
         VALUE "Clarion Version", "10000\0"
         VALUE "Template Family", "ABC\0"
         VALUE "Template Version", "v10.0\0"
-        VALUE "Compile Date", " 9/13/2018\0"
-        VALUE "Compile Time", "09:34:51\0"
+        VALUE "Compile Date", "10/01/2018\0"
+        VALUE "Compile Time", "11:29:04\0"
       END
     END
     BLOCK "VarFileInfo"
