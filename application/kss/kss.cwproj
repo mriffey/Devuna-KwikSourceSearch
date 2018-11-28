@@ -23,7 +23,7 @@
     <OutputPath>bin\debug\</OutputPath>
     <GenerateMap>True</GenerateMap>
     <line_numbers>False</line_numbers>
-    <DefineConstants>_ABCDllMode_=&gt;0%3b_ABCLinkMode_=&gt;1%3b_SCIDllMode_=&gt;0%3b_SCILinkMode_=&gt;1</DefineConstants>
+    <DefineConstants>xFilesLinkMode=&gt;1%3bxFilesDllMode=&gt;0%3bStringTheoryLinkMode=&gt;1%3bStringTheoryDllMode=&gt;0%3bMD5=&gt;0%3b_ABCDllMode_=&gt;0%3b_ABCLinkMode_=&gt;1%3b_SCIDllMode_=&gt;0%3b_SCILinkMode_=&gt;1</DefineConstants>
     <warnings>on</warnings>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
@@ -59,6 +59,7 @@
     <Library Include="Find.ico" />
     <Library Include="FindNext.ico" />
     <Library Include="harrow.cur" />
+    <Library Include="kss.EXE.manifest" />
     <Library Include="kss.ico" />
     <Library Include="kss.res" />
     <Library Include="kss.Version" />
@@ -71,6 +72,8 @@
     <Library Include="RedoSearch.ico" />
     <Library Include="Replace.ico" />
     <Library Include="SaveAs.ico" />
+    <Library Include="Skype.ico" />
+    <Library Include="SlackIcon.ico" />
     <Library Include="splith.cur" />
     <Library Include="splith.ico" />
     <Library Include="SPLITHB.CUR" />
