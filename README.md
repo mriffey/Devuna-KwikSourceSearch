@@ -23,7 +23,7 @@ Without the list of tools below, you will not be able to build this source. You 
 Required tools / code:
 
 - This repo
-- Clarion 10 
+- Clarion 10 or later (installer is Clarion 11) 
 - Capesoft xFiles
 - Capesoft StringTheory
 
@@ -33,6 +33,8 @@ Required tools / code:
 "KSSO" means "Kwik Source Search - Open Edition". 
 
 KSSO does not allow registration. To register, purchase KSS via Devuna.com, if available. NOTE: I AM NOT DEVUNA. 
+
+** 1.0.49 2018-11-27** - Added "Copy for Skype" and "Copy for Slack" right click / control key options for syntax window. These options add the necessary text to the front and the back of the copied text so that these two systems display your selection as code rather than as regular text. Also removed a spurious copy to clipboard of the FINDSTR command that was accidentally left in on 1.0.39. 
 
 ** 1.0.39 2018-10-01** - Adjusted size of Scintilla control. The lower arrow on the scroll bar was clipped and a bit hard to hit accurately with the mouse. 
 
