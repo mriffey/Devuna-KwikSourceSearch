@@ -23,7 +23,7 @@ Without the list of tools below, you will not be able to build this source. You 
 Required tools / code:
 
 - This repo
-- Clarion 10 or later (installer is Clarion 11) 
+- Clarion 10 or later (installer version is based on Clarion 11) 
 - Capesoft xFiles
 - Capesoft StringTheory
 
@@ -33,6 +33,8 @@ Required tools / code:
 "KSSO" means "Kwik Source Search - Open Edition". 
 
 KSSO does not allow registration. To register, purchase KSS via Devuna.com, if available. NOTE: I AM NOT DEVUNA. 
+
+** 1.0.59 2018-12-06** Found a GPF that revealed a bug that causes OMIT and COMPILE folding to be skipped in the Scintilla control. Haven't figured it out yet, as it's quite sensitive to options (like hide comment lines) and the content of the OMIT/COMPILE string - which varies significantly. Bug causes a GPF due to an index going to 0. For now, I've muted the GPF until I can get back to the root cause. 
 
 ** 1.0.50 2018-11-28** - Rebuild to eliminate a debug mode queue display. KSS is distributed in debug mode so that I get better details if and when we have a GPF. Previous versions were distributed in release mode. 
 
