@@ -34,17 +34,17 @@ Required tools / code:
 
 KSSO does not allow registration. To register, purchase KSS via Devuna.com, if available. NOTE: I AM NOT DEVUNA. 
 
-** 1.0.72 2019-01-03** Added a button to the toolbar that deletes generated built-in Clarion files (ie: *_BC*.clw, *_SF.clw, and *_.R*.clw). These files often clutter search results and it is tedious to delete them one at a time. The right click menu also includes this delete function. 
+**1.0.72 2019-01-03** Added a button to the toolbar that deletes generated built-in Clarion files (ie: *_BC*.clw, *_SF.clw, and *_.R*.clw). These files often clutter search results and it is tedious to delete them one at a time. The right click menu also includes this delete function. 
 
-** 1.0.59 2018-12-06** Found a GPF that revealed a bug that causes OMIT and COMPILE folding to be skipped in the Scintilla control. Haven't figured it out yet, as it's quite sensitive to options (like hide comment lines) and the content of the OMIT/COMPILE string - which varies significantly. Bug causes a GPF due to an index going to 0. For now, I've muted the GPF until I can get back to the root cause. 
+**1.0.59 2018-12-06** Found a GPF that revealed a bug that causes OMIT and COMPILE folding to be skipped in the Scintilla control. Haven't figured it out yet, as it's quite sensitive to options (like hide comment lines) and the content of the OMIT/COMPILE string - which varies significantly. Bug causes a GPF due to an index going to 0. For now, I've muted the GPF until I can get back to the root cause. 
 
-** 1.0.50 2018-11-28** - Rebuild to eliminate a debug mode queue display. KSS is distributed in debug mode so that I get better details if and when we have a GPF. Previous versions were distributed in release mode. 
+**1.0.50 2018-11-28** - Rebuild to eliminate a debug mode queue display. KSS is distributed in debug mode so that I get better details if and when we have a GPF. Previous versions were distributed in release mode. 
 
-** 1.0.49 2018-11-27** - Added "Copy for Skype" and "Copy for Slack" right click / control key options for syntax window. These options add the necessary text to the front and the back of the copied text so that these two systems display your selection as code rather than as regular text. Also removed a spurious copy to clipboard of the FINDSTR command that was accidentally left in on 1.0.39. 
+**1.0.49 2018-11-27** - Added "Copy for Skype" and "Copy for Slack" right click / control key options for syntax window. These options add the necessary text to the front and the back of the copied text so that these two systems display your selection as code rather than as regular text. Also removed a spurious copy to clipboard of the FINDSTR command that was accidentally left in on 1.0.39. 
 
-** 1.0.39 2018-10-01** - Adjusted size of Scintilla control. The lower arrow on the scroll bar was clipped and a bit hard to hit accurately with the mouse. 
+**1.0.39 2018-10-01** - Adjusted size of Scintilla control. The lower arrow on the scroll bar was clipped and a bit hard to hit accurately with the mouse. 
 
-** 1.0.29 (code change, no release)** - Removed registered user text from options window, which had been hard coded to say not registered.
+**1.0.29 (code change, no release)** - Removed registered user text from options window, which had been hard coded to say not registered.
 
 **1.0.28 2018-09-12** - Added option to process files with binary content (ie: remove FINDSTR's /P option) The option has been added to setup and to the search window. Also removed the automatic push of the FINDSTR to the clipboard as that could get annoying, particularly to folks who don't use a clipboard manager. The blank space above the Scintilla window has also been fixed. 
 
