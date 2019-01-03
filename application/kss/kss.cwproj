@@ -55,6 +55,7 @@
     <Library Include="cwHH%25V%25.LIB" />
     <Library Include="CWHHla.lib" />
     <Library Include="delete.ico" />
+    <Library Include="DeleteBuiltInClw.ico" />
     <Library Include="FileSave.ico" />
     <Library Include="Find.ico" />
     <Library Include="FindNext.ico" />
