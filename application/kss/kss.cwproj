@@ -49,13 +49,13 @@
     <Library Include="Checkbox_on.ico" />
     <Library Include="checkno.ico" />
     <Library Include="CLAOLE.LIB" />
+    <Library Include="ClarionBuiltIn.ico" />
     <Library Include="ClearAllBookmarks.ico" />
     <Library Include="copy.ico" />
     <Library Include="cut.ico" />
     <Library Include="cwHH%25V%25.LIB" />
     <Library Include="CWHHla.lib" />
     <Library Include="delete.ico" />
-    <Library Include="DeleteBuiltInClw.ico" />
     <Library Include="FileSave.ico" />
     <Library Include="Find.ico" />
     <Library Include="FindNext.ico" />
