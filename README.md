@@ -15,6 +15,7 @@ Most notably the Results List 'Print' and the 'CheckForUpdate' features have bee
 
 **KSSOpen readme begins (content above came from Randy)**
 
+Get installers here: https://github.com/mriffey/Devuna-KwikSourceSearch/releases
 
 **DEPENDENCIES**
 
