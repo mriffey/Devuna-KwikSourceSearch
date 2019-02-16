@@ -27,6 +27,7 @@ Required tools / code:
 - Clarion 10 or later (installer version is based on Clarion 11) 
 - Capesoft xFiles
 - Capesoft StringTheory
+- Capesoft Winevent (only 1 call used - ds_VisibleOnDesktop)
 
 
 **OPEN SOURCE RELEASE NOTES AND NEWS**
@@ -34,6 +35,8 @@ Required tools / code:
 "KSSO" means "Kwik Source Search - Open Edition". 
 
 KSSO does not allow registration. To register, purchase KSS via Devuna.com, if available. NOTE: I AM NOT DEVUNA. 
+
+**1.0.84 2019-02-15** KSSO now moves itself to an available monitor so that you don't "lose" it if you were on a 2 monitor system and subsequently disconnected a monitor and went on a trip. It's possible this also resolved an issue with the search window being "stuck" on monitor 2 after manually moving the frame from the now-missing monitor 2 to monitor 1. 
 
 **1.0.73 2019-01-08** Corrected installer, which was grabbing an older exe. Thanks to Bill Rollins for the heads up.
 
