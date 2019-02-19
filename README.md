@@ -38,6 +38,8 @@ KSSO does not require registration.
 
 To purchase KSS, see Devuna.com (purchasing may no longer be available). NOTE: I AM NOT DEVUNA. 
 
+**1.0.97 2019-02-19** More fixes from Randy and a fix from Winevent that caused the window to bounce when maximized. 
+
 **1.0.85 2019-02-16** Applied a couple of fixes from Randy for MATCH and exclusion processing. 
 
 **1.0.84 2019-02-15** KSSO now moves itself to an available monitor so that you don't "lose" it if you were on a 2 monitor system and subsequently disconnected a monitor and went on a trip. It's possible this also resolved an issue with the search window being "stuck" on monitor 2 after manually moving the frame from the now-missing monitor 2 to monitor 1. The addition of WinEvent (a quick, simple way to accomplish the windows location fixes in 1.0.84) also allows KSS to respond properly (and close itself) during a Windows shutdown. 
